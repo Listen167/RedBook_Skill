@@ -1,0 +1,6 @@
+interface:
+  display_name: "С����������"
+  short_description: "����������˿ͷ�����������֤�ݡ���ִ�С��ɸ��̵���������ʵ��"
+  brand_color: "#1F7A5C"
+  default_prompt: "使用 $local-shop-growth-loop 分析我的小店数据，并设计一个可衡量的七天增长实验。"
+1

@@ -1,0 +1,8 @@
+day,action,owner,due_at,completion_evidence,primary_metric,guardrail,status
+1,"Mark one afternoon pickup point and record the baseline workflow",shop_owner,2026-10-08T14:00:00+08:00,"Photo of anonymized pickup layout","Afternoon completed orders per day","No blocked aisle",planned
+2,"Use one consistent ready-order callout from 14:00 to 17:00",shift_lead,2026-10-09T17:00:00+08:00,"Shift checklist","Afternoon completed orders per day","Refund rate below 1%",planned
+3,"Record preparation minutes for ten sampled drinks",shift_lead,2026-10-10T17:00:00+08:00,"Anonymous timing sheet","Afternoon completed orders per day","No customer identifiers",planned
+4,"Repeat the same handoff without changing price or promotion",shop_owner,2026-10-11T17:00:00+08:00,"Shift checklist","Afternoon completed orders per day","No additional intervention",planned
+5,"Review missing logs and correct collection only",shop_owner,2026-10-12T17:00:00+08:00,"Data completeness note","Afternoon completed orders per day","Do not alter prior records",planned
+6,"Continue the unchanged handoff and collect one feedback question",shift_lead,2026-10-13T17:00:00+08:00,"Anonymous feedback count","Afternoon completed orders per day","Do not publish raw feedback",planned
+7,"Export the period and run comparison",analyst,2026-10-14T20:00:00+08:00,"comparison.json","Afternoon completed orders per day","State that association is not causality",planned

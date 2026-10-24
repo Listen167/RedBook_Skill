@@ -1,0 +1,189 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-10-23T15:14:37.315207+00:00",
+  "profile": {
+    "shop_id": "demo-corner-cup",
+    "shop_name": "Corner Cup Demo",
+    "category": "cafe",
+    "currency": "CNY",
+    "timezone": "Asia/Shanghai",
+    "objective": "Increase weekday afternoon orders while keeping refund rate stable.",
+    "data_origin": "synthetic",
+    "seed": 20261023
+  },
+  "period": {
+    "start": "2026-10-01",
+    "end": "2026-10-07",
+    "distinct_order_days": 7
+  },
+  "sales": {
+    "order_rows": 274,
+    "orders": 227,
+    "completed_orders": 226,
+    "refunded_orders": 1,
+    "refund_rate": 0.0044,
+    "items_sold": 273.0,
+    "net_revenue": 4838.0,
+    "discount_total": 0.0,
+    "average_order_value": 21.41,
+    "per_day": {
+      "net_revenue": 691.14,
+      "orders": 32.29
+    },
+    "daily": [
+      {
+        "date": "2026-10-01",
+        "orders": 30,
+        "net_revenue": 633.0
+      },
+      {
+        "date": "2026-10-02",
+        "orders": 35,
+        "net_revenue": 721.0
+      },
+      {
+        "date": "2026-10-03",
+        "orders": 33,
+        "net_revenue": 792.0
+      },
+      {
+        "date": "2026-10-04",
+        "orders": 29,
+        "net_revenue": 618.0
+      },
+      {
+        "date": "2026-10-05",
+        "orders": 33,
+        "net_revenue": 682.0
+      },
+      {
+        "date": "2026-10-06",
+        "orders": 33,
+        "net_revenue": 721.0
+      },
+      {
+        "date": "2026-10-07",
+        "orders": 33,
+        "net_revenue": 671.0
+      }
+    ],
+    "time_windows": {
+      "morning": {
+        "orders": 82,
+        "net_revenue": 1701.0
+      },
+      "lunch": {
+        "orders": 64,
+        "net_revenue": 1466.0
+      },
+      "afternoon": {
+        "orders": 30,
+        "net_revenue": 655.0
+      },
+      "evening": {
+        "orders": 50,
+        "net_revenue": 1016.0
+      },
+      "overnight": {
+        "orders": 0,
+        "net_revenue": 0.0
+      }
+    },
+    "products": [
+      {
+        "product_id": "P04",
+        "product_name": "Croissant",
+        "category": "bakery",
+        "quantity": 98.0,
+        "net_revenue": 1470.0,
+        "refund_lines": 0
+      },
+      {
+        "product_id": "P02",
+        "product_name": "Latte",
+        "category": "drink",
+        "quantity": 59.0,
+        "net_revenue": 1298.0,
+        "refund_lines": 1
+      },
+      {
+        "product_id": "P01",
+        "product_name": "Americano",
+        "category": "drink",
+        "quantity": 79.0,
+        "net_revenue": 1264.0,
+        "refund_lines": 0
+      },
+      {
+        "product_id": "P03",
+        "product_name": "Fruit Tea",
+        "category": "drink",
+        "quantity": 21.0,
+        "net_revenue": 378.0,
+        "refund_lines": 0
+      },
+      {
+        "product_id": "P05",
+        "product_name": "Chicken Sandwich",
+        "category": "food",
+        "quantity": 10.0,
+        "net_revenue": 260.0,
+        "refund_lines": 0
+      },
+      {
+        "product_id": "P06",
+        "product_name": "Cheesecake",
+        "category": "dessert",
+        "quantity": 6.0,
+        "net_revenue": 168.0,
+        "refund_lines": 0
+      }
+    ],
+    "channels": {
+      "pickup": 58,
+      "walk_in": 168
+    },
+    "customers": {
+      "identified": 84,
+      "repeat_customers": 66,
+      "repeat_customer_rate": 0.7857
+    }
+  },
+  "feedback": {
+    "reviews": 14,
+    "rated_reviews": 14,
+    "average_rating": 3.5,
+    "negative_reviews": 5,
+    "negative_rate": 0.3571,
+    "theme_counts": {
+      "service": 6,
+      "waiting_time": 5,
+      "other": 2,
+      "environment": 1
+    },
+    "theme_evidence": {
+      "environment": [
+        "EV-R010"
+      ],
+      "other": [
+        "EV-R007",
+        "EV-R009"
+      ],
+      "service": [
+        "EV-R006",
+        "EV-R008",
+        "EV-R011",
+        "EV-R012",
+        "EV-R013",
+        "EV-R014"
+      ],
+      "waiting_time": [
+        "EV-R001",
+        "EV-R002",
+        "EV-R003",
+        "EV-R004",
+        "EV-R005"
+      ]
+    }
+  }
+}

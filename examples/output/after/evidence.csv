@@ -1,0 +1,15 @@
+evidence_id,review_id,reviewed_at,rating,theme,source,redacted_text
+EV-R001,AR-001,2026-10-08T15:00:00,2,waiting_time,synthetic_demo,排队不长但等饮品花了很久。
+EV-R002,AR-002,2026-10-09T15:00:00,4,environment,synthetic_demo,环境干净，下午适合短暂休息。
+EV-R003,AR-003,2026-10-10T15:00:00,4,other,synthetic_demo,可颂很新鲜，搭配拿铁不错。
+EV-R004,AR-004,2026-10-11T15:00:00,4,environment,synthetic_demo,环境干净，下午适合短暂休息。
+EV-R005,AR-005,2026-10-12T15:00:00,4,environment,synthetic_demo,环境干净，下午适合短暂休息。
+EV-R006,AR-006,2026-10-13T15:00:00,4,other,synthetic_demo,可颂很新鲜，搭配拿铁不错。
+EV-R007,AR-007,2026-10-14T15:00:00,5,service,synthetic_demo,店员服务很友好，下次还会来。
+EV-R008,AR-008,2026-10-08T15:00:00,5,service,synthetic_demo,店员服务很友好，下次还会来。
+EV-R009,AR-009,2026-10-09T15:00:00,5,other,synthetic_demo,咖啡味道稳定，取餐也很方便。
+EV-R010,AR-010,2026-10-10T15:00:00,4,other,synthetic_demo,可颂很新鲜，搭配拿铁不错。
+EV-R011,AR-011,2026-10-11T15:00:00,4,service,synthetic_demo,店员服务很友好，下次还会来。
+EV-R012,AR-012,2026-10-12T15:00:00,5,other,synthetic_demo,可颂很新鲜，搭配拿铁不错。
+EV-R013,AR-013,2026-10-13T15:00:00,5,service,synthetic_demo,店员服务很友好，下次还会来。
+EV-R014,AR-014,2026-10-14T15:00:00,5,service,synthetic_demo,店员服务很友好，下次还会来。

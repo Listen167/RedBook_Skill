@@ -1,0 +1,23 @@
+{
+  "status": "ok",
+  "errors": [],
+  "warnings": [],
+  "rows": {
+    "products": {
+      "input": 6,
+      "valid": 6,
+      "skipped": 0
+    },
+    "orders": {
+      "input": 336,
+      "valid": 336,
+      "skipped": 0
+    },
+    "reviews": {
+      "input": 14,
+      "valid": 14,
+      "skipped": 0
+    }
+  },
+  "redactions": 0
+}

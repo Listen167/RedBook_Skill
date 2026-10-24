@@ -1,0 +1,11 @@
+{
+  "shop_id": "demo-corner-cup",
+  "shop_name": "Corner Cup Demo",
+  "category": "cafe",
+  "currency": "CNY",
+  "timezone": "Asia/Shanghai",
+  "objective": "Increase weekday afternoon orders while keeping refund rate stable.",
+  "data_origin": "synthetic",
+  "seed": 20261023,
+  "scenario_note": "After period simulates an afternoon pickup workflow; it is not a real experiment result."
+}

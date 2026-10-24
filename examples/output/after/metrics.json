@@ -1,0 +1,189 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-10-23T15:14:37.313851+00:00",
+  "profile": {
+    "shop_id": "demo-corner-cup",
+    "shop_name": "Corner Cup Demo",
+    "category": "cafe",
+    "currency": "CNY",
+    "timezone": "Asia/Shanghai",
+    "objective": "Increase weekday afternoon orders while keeping refund rate stable.",
+    "data_origin": "synthetic",
+    "seed": 20261023
+  },
+  "period": {
+    "start": "2026-10-08",
+    "end": "2026-10-14",
+    "distinct_order_days": 7
+  },
+  "sales": {
+    "order_rows": 336,
+    "orders": 268,
+    "completed_orders": 268,
+    "refunded_orders": 0,
+    "refund_rate": 0.0,
+    "items_sold": 336.0,
+    "net_revenue": 6337.0,
+    "discount_total": 0.0,
+    "average_order_value": 23.65,
+    "per_day": {
+      "net_revenue": 905.29,
+      "orders": 38.29
+    },
+    "daily": [
+      {
+        "date": "2026-10-08",
+        "orders": 38,
+        "net_revenue": 852.0
+      },
+      {
+        "date": "2026-10-09",
+        "orders": 38,
+        "net_revenue": 889.0
+      },
+      {
+        "date": "2026-10-10",
+        "orders": 37,
+        "net_revenue": 785.0
+      },
+      {
+        "date": "2026-10-11",
+        "orders": 40,
+        "net_revenue": 987.0
+      },
+      {
+        "date": "2026-10-12",
+        "orders": 39,
+        "net_revenue": 938.0
+      },
+      {
+        "date": "2026-10-13",
+        "orders": 38,
+        "net_revenue": 945.0
+      },
+      {
+        "date": "2026-10-14",
+        "orders": 38,
+        "net_revenue": 941.0
+      }
+    ],
+    "time_windows": {
+      "morning": {
+        "orders": 81,
+        "net_revenue": 1982.0
+      },
+      "lunch": {
+        "orders": 65,
+        "net_revenue": 1549.0
+      },
+      "afternoon": {
+        "orders": 74,
+        "net_revenue": 1747.0
+      },
+      "evening": {
+        "orders": 48,
+        "net_revenue": 1059.0
+      },
+      "overnight": {
+        "orders": 0,
+        "net_revenue": 0.0
+      }
+    },
+    "products": [
+      {
+        "product_id": "P04",
+        "product_name": "Croissant",
+        "category": "bakery",
+        "quantity": 99.0,
+        "net_revenue": 1485.0,
+        "refund_lines": 0
+      },
+      {
+        "product_id": "P01",
+        "product_name": "Americano",
+        "category": "drink",
+        "quantity": 82.0,
+        "net_revenue": 1312.0,
+        "refund_lines": 0
+      },
+      {
+        "product_id": "P02",
+        "product_name": "Latte",
+        "category": "drink",
+        "quantity": 59.0,
+        "net_revenue": 1298.0,
+        "refund_lines": 0
+      },
+      {
+        "product_id": "P06",
+        "product_name": "Cheesecake",
+        "category": "dessert",
+        "quantity": 33.0,
+        "net_revenue": 924.0,
+        "refund_lines": 0
+      },
+      {
+        "product_id": "P03",
+        "product_name": "Fruit Tea",
+        "category": "drink",
+        "quantity": 40.0,
+        "net_revenue": 720.0,
+        "refund_lines": 0
+      },
+      {
+        "product_id": "P05",
+        "product_name": "Chicken Sandwich",
+        "category": "food",
+        "quantity": 23.0,
+        "net_revenue": 598.0,
+        "refund_lines": 0
+      }
+    ],
+    "channels": {
+      "pickup": 59,
+      "walk_in": 209
+    },
+    "customers": {
+      "identified": 92,
+      "repeat_customers": 74,
+      "repeat_customer_rate": 0.8043
+    }
+  },
+  "feedback": {
+    "reviews": 14,
+    "rated_reviews": 14,
+    "average_rating": 4.29,
+    "negative_reviews": 1,
+    "negative_rate": 0.0714,
+    "theme_counts": {
+      "other": 5,
+      "service": 5,
+      "environment": 3,
+      "waiting_time": 1
+    },
+    "theme_evidence": {
+      "environment": [
+        "EV-R002",
+        "EV-R004",
+        "EV-R005"
+      ],
+      "other": [
+        "EV-R003",
+        "EV-R006",
+        "EV-R009",
+        "EV-R010",
+        "EV-R012"
+      ],
+      "service": [
+        "EV-R007",
+        "EV-R008",
+        "EV-R011",
+        "EV-R013",
+        "EV-R014"
+      ],
+      "waiting_time": [
+        "EV-R001"
+      ]
+    }
+  }
+}

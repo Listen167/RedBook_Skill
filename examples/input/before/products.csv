@@ -1,0 +1,7 @@
+product_id,product_name,category,unit_price,unit_cost,active
+P01,Americano,drink,16,5,true
+P02,Latte,drink,22,8,true
+P03,Fruit Tea,drink,18,6,true
+P04,Croissant,bakery,15,7,true
+P05,Chicken Sandwich,food,26,12,true
+P06,Cheesecake,dessert,28,13,true

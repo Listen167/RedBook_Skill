@@ -1,0 +1,15 @@
+evidence_id,review_id,reviewed_at,rating,theme,source,redacted_text
+EV-R001,BR-001,2026-10-01T15:00:00,2,waiting_time,synthetic_demo,赶时间时不敢点拿铁，等待时间不确定。
+EV-R002,BR-002,2026-10-02T15:00:00,2,waiting_time,synthetic_demo,排队不长但等饮品花了很久。
+EV-R003,BR-003,2026-10-03T15:00:00,2,waiting_time,synthetic_demo,赶时间时不敢点拿铁，等待时间不确定。
+EV-R004,BR-004,2026-10-04T15:00:00,2,waiting_time,synthetic_demo,赶时间时不敢点拿铁，等待时间不确定。
+EV-R005,BR-005,2026-10-05T15:00:00,2,waiting_time,synthetic_demo,排队不长但等饮品花了很久。
+EV-R006,BR-006,2026-10-06T15:00:00,5,service,synthetic_demo,店员服务很友好，下次还会来。
+EV-R007,BR-007,2026-10-07T15:00:00,4,other,synthetic_demo,可颂很新鲜，搭配拿铁不错。
+EV-R008,BR-008,2026-10-01T15:00:00,5,service,synthetic_demo,店员服务很友好，下次还会来。
+EV-R009,BR-009,2026-10-02T15:00:00,4,other,synthetic_demo,可颂很新鲜，搭配拿铁不错。
+EV-R010,BR-010,2026-10-03T15:00:00,4,environment,synthetic_demo,环境干净，下午适合短暂休息。
+EV-R011,BR-011,2026-10-04T15:00:00,5,service,synthetic_demo,店员服务很友好，下次还会来。
+EV-R012,BR-012,2026-10-05T15:00:00,4,service,synthetic_demo,店员服务很友好，下次还会来。
+EV-R013,BR-013,2026-10-06T15:00:00,4,service,synthetic_demo,店员服务很友好，下次还会来。
+EV-R014,BR-014,2026-10-07T15:00:00,4,service,synthetic_demo,店员服务很友好，下次还会来。

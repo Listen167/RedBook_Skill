@@ -1,0 +1,94 @@
+{
+  "schema_version": "1.0",
+  "before_period": {
+    "start": "2026-10-01",
+    "end": "2026-10-07",
+    "distinct_order_days": 7
+  },
+  "after_period": {
+    "start": "2026-10-08",
+    "end": "2026-10-14",
+    "distinct_order_days": 7
+  },
+  "comparisons": {
+    "sales.net_revenue": {
+      "before": 4838.0,
+      "after": 6337.0,
+      "absolute_change": 1499.0,
+      "percent_change": 30.98,
+      "direction": "increased"
+    },
+    "sales.orders": {
+      "before": 227,
+      "after": 268,
+      "absolute_change": 41,
+      "percent_change": 18.06,
+      "direction": "increased"
+    },
+    "sales.average_order_value": {
+      "before": 21.41,
+      "after": 23.65,
+      "absolute_change": 2.24,
+      "percent_change": 10.46,
+      "direction": "increased"
+    },
+    "sales.refund_rate": {
+      "before": 0.0044,
+      "after": 0.0,
+      "absolute_change": -0.0,
+      "percent_change": -100.0,
+      "direction": "unchanged"
+    },
+    "sales.per_day.net_revenue": {
+      "before": 691.14,
+      "after": 905.29,
+      "absolute_change": 214.15,
+      "percent_change": 30.99,
+      "direction": "increased"
+    },
+    "sales.per_day.orders": {
+      "before": 32.29,
+      "after": 38.29,
+      "absolute_change": 6.0,
+      "percent_change": 18.58,
+      "direction": "increased"
+    },
+    "sales.time_windows.afternoon.orders": {
+      "before": 30,
+      "after": 74,
+      "absolute_change": 44,
+      "percent_change": 146.67,
+      "direction": "increased"
+    },
+    "sales.time_windows.afternoon.net_revenue": {
+      "before": 655.0,
+      "after": 1747.0,
+      "absolute_change": 1092.0,
+      "percent_change": 166.72,
+      "direction": "increased"
+    },
+    "feedback.average_rating": {
+      "before": 3.5,
+      "after": 4.29,
+      "absolute_change": 0.79,
+      "percent_change": 22.57,
+      "direction": "increased"
+    },
+    "feedback.negative_rate": {
+      "before": 0.3571,
+      "after": 0.0714,
+      "absolute_change": -0.29,
+      "percent_change": -80.01,
+      "direction": "decreased"
+    }
+  },
+  "warnings": [],
+  "interpretation_boundary": "This before/after association does not by itself establish causality.",
+  "competing_explanations_to_check": [
+    "weekday mix",
+    "stock availability",
+    "weather or local events",
+    "seasonality",
+    "incomplete or changed data collection"
+  ]
+}
